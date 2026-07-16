@@ -15,10 +15,29 @@
         "pages": ["index", "quickstart"]
       }
     ],
-    "groups": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": ["overview"]
+        "language": "id",
+        "default": true,
+        "groups": [
+          {
+            "group": "Memulai",
+            "pages": [
+              "id/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "overview"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -52,12 +71,7 @@
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": ["copy", "view", "chatgpt", "claude"]
@@ -87,5 +101,8 @@
   },
   "markdown": {
     "schema": false
+  },
+  "interaction": {
+    "drilldown": true
   }
 }
