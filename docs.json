@@ -12,18 +12,13 @@
     "pages": [
       {
         "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
+        "pages": ["index", "quickstart"]
       }
     ],
     "groups": [
       {
         "group": "Getting Started",
-        "pages": [
-          "index"
-        ]
+        "pages": ["index"]
       }
     ]
   },
@@ -31,6 +26,26 @@
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "languages": [
+    {
+      "language": "en",
+      "groups": [
+        {
+          "group": "Getting started",
+          "pages": ["quickstart"]
+        }
+      ]
+    },
+    {
+      "language": "id",
+      "groups": [
+        {
+          "group": "Memulai",
+          "pages": ["id/quickstart"]
+        }
+      ]
+    }
+  ],
   "navbar": {
     "links": [
       {
@@ -45,12 +60,7 @@
     }
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude"
-    ]
+    "options": ["copy", "view", "chatgpt", "claude"]
   },
   "footer": {
     "socials": {
